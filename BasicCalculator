@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+    //char operator[1];
+    long double a;
+    long double b;
+    char x[1];
+    operandplus = +;
+    operandmoins = -;
+    operandfois = *;
+    operandslash = /;
+
+
+int main(){
+    
+    while(1){
+    printf("Enter an operator (+, -, *, /), if want to exit press x : ");
+    scanf("%s", operator);
+    if( _kbhit(x) )
+        exit(EXIT_SUCCESS);   
+          
+          
+    printf("Enter two first and second operand : ");
+    scanf("%lf, %lf", a, b);
+    
+    
+    if(operator == "*"){
+        printf("%Lf, "*", %Lf "=" %Lf*%Lf ", a, b, a, b);
+        }
+        else if(operator == "+"){
+            printf("%Lf "+" %Lf "=" %Lf+%Lf ", a, b, a, b);
+            }
+            else if(operator == "-"){
+                printf("%Lf "-" %Lf "=" %Lf-%Lf ", a, b, a, b);
+                }
+                else if(operator == "/"){
+                    printf("%Lf "/" %Lf "=" %Lf/b ", a, b, a, b);
+                    } 
+    }
+    
+    
+    
+    return 0;
+}
+
