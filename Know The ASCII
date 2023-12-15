@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    
+    char asc;
+    
+    while(1){
+    scanf("%c", &asc);
+    printf("%d", asc);
+    }
+    
+    return 0;
+}
